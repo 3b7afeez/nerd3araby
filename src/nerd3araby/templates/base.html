@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include 'snippets/css.html' %}
+	<title>{% block title %}
+	    
+	{% endblock title %}</title>
+</head>
+<body>
+	{% include 'snippets/nav.html' %}
+	{% block content %}
+	    
+	{% endblock content %}
+	
+	{% include 'snippets/js.html' %}
+</body>
+</html>
