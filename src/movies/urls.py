@@ -1,9 +1,8 @@
 from django.urls import path
+from . import views
 
 app_name = 'movies'
 
-# urlpatterns = [
-#     path('books/', include('books.urls')),
-#     path('movies/', include('movies.urls')),
-#     path('music/', include('music.urls')),
-# ]
+urlpatterns = [
+    path('', views.home_view, name='home'),
+]
