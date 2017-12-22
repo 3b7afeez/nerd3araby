@@ -1,0 +1,17 @@
+body{
+    background: url(../media/images/white-paper-bg.jpg);
+}
+.well-header{
+    font-family: Satisfy, cursive;
+    background: url(../media/images/white-paper-bg.jpg);
+}
+.navbar{
+    border-radius: 0;
+}
+.navbar-brand{
+    font-family: Satisfy, cursive;
+    font-size: 1.7em;
+}
+.table{
+    background: #fff;
+}

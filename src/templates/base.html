@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	{% load staticfiles %}
 	{% include 'snippets/css.html' %}
 	<title>{% block title %}
-	    
+	    Nerd3araby
 	{% endblock title %}</title>
+	<link rel="icon" sizes="200x200" href="{% static 'images/icon.png' %}">
 </head>
 <body>
 	{% include 'snippets/nav.html' %}
